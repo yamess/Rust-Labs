@@ -3,6 +3,13 @@ name = "bubble_sort"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "bubble_sort"
+path = "src/lib.rs"
+
+[[bin]]
+name = "bubble_sort"
+path = "src/main.rs"
 
 [dependencies]
+rand = "0.8.5"
