@@ -1,2 +1,2 @@
 # Rust-Labs
-Rust project for learning purposes
+Rust projects for learning purposes
