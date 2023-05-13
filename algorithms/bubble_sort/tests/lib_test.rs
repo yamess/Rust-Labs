@@ -1,4 +1,4 @@
-use::bubble_sort::bubble_sort;
+use bubble_sort::bubble_sort;
 
 
 #[test]
