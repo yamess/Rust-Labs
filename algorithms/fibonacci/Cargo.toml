@@ -1,0 +1,15 @@
+[package]
+name = "fibonacci"
+version = "0.1.0"
+edition = "2021"
+
+
+[lib]
+name = "fibonacci"
+path = "src/lib.rs"
+
+[[bin]]
+name = "fibonacci"
+path = "src/main.rs"
+
+[dependencies]
