@@ -4,4 +4,5 @@ members = [
     "algorithms/merge_sort",
     "algorithms/quick_sort",
     "algorithms/fibonacci",
+    "algorithms/scheduling",
 ]
