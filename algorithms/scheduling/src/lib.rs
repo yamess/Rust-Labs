@@ -13,7 +13,7 @@ impl Meeting {
         Meeting { start, end }
     }
 
-    pub fn overlap(&self, other: &Meeting) -> Option<Vec<i32>> {
+    fn overlap(&self, other: &Meeting) -> Option<Vec<i32>> {
         let mut intersection = Vec::with_capacity(2);
         if max(self.start, other.start) < min(self.end, other.end) {
             intersection.push(max(self.start, other.start));
@@ -31,8 +31,8 @@ pub fn get_overlaps(
 
     let mut overlaps = Vec::new();
 
-    for meeting1 in schedules1 {
-        for meeting2 in schedules2 {
+    for meeting1 in schedules1.iter() {
+        for meeting2 in schedules2.iter() {
             match meeting1.overlap(meeting2) {
                 Some(overlap) => overlaps.push(overlap),
                 None => continue,
