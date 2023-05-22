@@ -6,4 +6,5 @@ members = [
     "algorithms/fibonacci",
     "algorithms/scheduling",
     "algorithms/threadpool",
+    "terminal-ui",
 ]
