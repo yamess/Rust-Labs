@@ -1,7 +1,7 @@
 use std::sync::mpsc;
 use std::sync::Arc;
 use std::sync::Mutex;
-use crate::job::{Job, Message};
+use crate::job::{Message};
 use crate::worker::Worker;
 
 

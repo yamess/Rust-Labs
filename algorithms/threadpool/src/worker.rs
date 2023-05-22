@@ -1,7 +1,7 @@
 use std::sync::{Arc, Mutex};
 use std::thread;
 use std::sync::mpsc;
-use crate::job::{Job, Message};
+use crate::job::{Message};
 
 pub struct Worker {
     pub id: usize,
