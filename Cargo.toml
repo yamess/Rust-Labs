@@ -5,4 +5,5 @@ members = [
     "algorithms/quick_sort",
     "algorithms/fibonacci",
     "algorithms/scheduling",
+    "algorithms/threadpool",
 ]
