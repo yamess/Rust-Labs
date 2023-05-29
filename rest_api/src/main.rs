@@ -1,33 +1,43 @@
-use std::collections::HashMap;
+use actix_web::{get, middleware, web, App, HttpResponse, HttpServer, Responder};
+use log::info;
 
-fn main() {
-    let nums_1 = vec![2,7,11,15];
+use rest_api::setup_logger;
+
+#[actix_web::main]
+async fn main() -> std::io::Result<()> {
+    setup_logger();
+    info!("Starting server");
+    HttpServer::new(|| {
+        App::new()
+            .wrap(middleware::Logger::default())
+            .wrap(middleware::Logger::new("%a %{User-Agent}i"))
+            .wrap(middleware::Compress::default())
+            .wrap(middleware::NormalizePath::new(
+                middleware::TrailingSlash::Trim,
+            ))
+            .wrap(middleware::NormalizePath::new(
+                middleware::TrailingSlash::MergeOnly,
+            ))
+            .service(index)
+            .service(hello)
+            .route("/echo", web::get().to(echo))
+    })
+    .bind(("127.0.0.1", 8000))?
+    .workers(4)
+    .run()
+    .await
 }
 
-fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
-    let mut dict: HashMap<i32, i32> = HashMap::new();
-    let mut result: Vec<i32> = Vec::new();
-
-    for (i, num) in nums.iter().enumerate() {
-        let complement = target - num;
-        if dict.contains_key(&complement) {
-            result.push(*dict.get(&complement).unwrap());
-            result.push(i as i32);
-            return result;
-        }
-        dict.insert(*num, i as i32);
-    }
-    result
+#[get("/hello")]
+async fn hello() -> impl Responder {
+    HttpResponse::Ok().body("Hello world!")
 }
 
+async fn echo() -> impl Responder {
+    HttpResponse::Ok().body("Echo page")
+}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-    #[test]
-    fn test_two_sum() {
-        assert_eq!(two_sum(vec![2,7,11,15], 9), vec![0,1]);
-        assert_eq!(two_sum(vec![3,2,4], 6), vec![1,2]);
-        assert_eq!(two_sum(vec![3,3], 6), vec![0,1]);
-    }
+#[get("/")]
+async fn index() -> impl Responder {
+    HttpResponse::Ok().body("Index page")
 }
