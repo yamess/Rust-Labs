@@ -1,0 +1,17 @@
+[package]
+name = "rest_api"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "rest_api"
+path = "src/main.rs"
+
+[dependencies]
+actix-web = "4.3.1"
+dotenv = "0.15.0"
+chrono = "0.4.24"
+fern = { version = "0.6", features = ["colored"] }
+log = "0.4"
+console = "0.15.7"
+sea-orm = { version = "^0", features = ["sqlx-postgres", "runtime-actix-rustls", "macros"] }

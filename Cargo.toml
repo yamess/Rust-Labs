@@ -7,4 +7,5 @@ members = [
     "algorithms/scheduling",
     "algorithms/threadpool",
     "grpc",
+    "rest_api",
 ]

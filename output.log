@@ -1,1 +1,181 @@
 [2023-05-24][01:01:47][[32mINFO[0m][grpc] Starting gRPC server...
+2023-05-29 01:05:45 [[32mINFO[0m] rest_api Logger initialized
+2023-05-29 01:05:45 [[32mINFO[0m] rest_api Starting server
+2023-05-29 01:05:45 [[32mINFO[0m] actix_server::builder starting 6 workers
+2023-05-29 01:05:45 [[32mINFO[0m] actix_server::server Actix runtime found; starting in Actix runtime
+2023-05-29 01:09:41 [[32mINFO[0m] actix_server::server SIGINT received; starting forced shutdown
+2023-05-29 01:09:41 [[35mDEBUG[0m] actix_server::accept paused accepting connections on 127.0.0.1:8000
+2023-05-29 01:09:41 [[32mINFO[0m] actix_server::worker shutting down idle worker
+2023-05-29 01:09:41 [[32mINFO[0m] actix_server::worker shutting down idle worker
+2023-05-29 01:09:41 [[32mINFO[0m] actix_server::worker shutting down idle worker
+2023-05-29 01:09:41 [[32mINFO[0m] actix_server::worker shutting down idle worker
+2023-05-29 01:09:41 [[32mINFO[0m] actix_server::worker shutting down idle worker
+2023-05-29 01:09:41 [[32mINFO[0m] actix_server::accept accept thread stopped
+2023-05-29 01:09:41 [[32mINFO[0m] actix_server::worker shutting down idle worker
+2023-05-29 01:09:52 [[32mINFO[0m] [rest_api] Logger initialized
+2023-05-29 01:09:52 [[32mINFO[0m] [rest_api] Starting server
+2023-05-29 01:09:52 [[32mINFO[0m] [actix_server::builder] starting 6 workers
+2023-05-29 01:09:52 [[32mINFO[0m] [actix_server::server] Actix runtime found; starting in Actix runtime
+2023-05-29 01:13:50 [[32mINFO[0m] [actix_server::server] SIGINT received; starting forced shutdown
+2023-05-29 01:13:50 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:13:50 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:13:50 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:13:50 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:13:50 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:13:50 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:13:50 [[35mDEBUG[0m] [actix_server::accept] paused accepting connections on 127.0.0.1:8000
+2023-05-29 01:13:50 [[32mINFO[0m] [actix_server::accept] accept thread stopped
+2023-05-29 01:29:16 [[32mINFO[0m] [rest_api] Logger initialized
+2023-05-29 01:29:16 [[32mINFO[0m] [rest_api] Starting server
+2023-05-29 01:29:16 [[32mINFO[0m] [actix_server::builder] starting 6 workers
+2023-05-29 01:29:16 [[32mINFO[0m] [actix_server::server] Actix runtime found; starting in Actix runtime
+2023-05-29 01:31:19 [[32mINFO[0m] [actix_server::server] SIGINT received; starting forced shutdown
+2023-05-29 01:31:19 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:31:19 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:31:19 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:31:19 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:31:19 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:31:19 [[35mDEBUG[0m] [actix_server::accept] paused accepting connections on 127.0.0.1:8000
+2023-05-29 01:31:19 [[32mINFO[0m] [actix_server::accept] accept thread stopped
+2023-05-29 01:31:19 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:31:26 [[32mINFO[0m] [rest_api] Logger initialized
+2023-05-29 01:31:26 [[32mINFO[0m] [rest_api] Starting server
+2023-05-29 01:31:26 [[32mINFO[0m] [actix_server::builder] starting 4 workers
+2023-05-29 01:31:26 [[32mINFO[0m] [actix_server::server] Actix runtime found; starting in Actix runtime
+2023-05-29 01:31:41 [[32mINFO[0m] [actix_server::server] SIGINT received; starting forced shutdown
+2023-05-29 01:31:41 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:31:41 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:31:41 [[35mDEBUG[0m] [actix_server::accept] paused accepting connections on 127.0.0.1:8000
+2023-05-29 01:31:41 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:31:41 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:31:42 [[32mINFO[0m] [actix_server::accept] accept thread stopped
+2023-05-29 01:31:47 [[32mINFO[0m] [rest_api] Logger initialized
+2023-05-29 01:31:47 [[32mINFO[0m] [rest_api] Starting server
+2023-05-29 01:31:47 [[32mINFO[0m] [actix_server::builder] starting 4 workers
+2023-05-29 01:31:47 [[32mINFO[0m] [actix_server::server] Actix runtime found; starting in Actix runtime
+2023-05-29 01:31:54 [[32mINFO[0m] [actix_server::server] SIGINT received; starting forced shutdown
+2023-05-29 01:31:54 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:31:54 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:31:54 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:31:54 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:31:54 [[35mDEBUG[0m] [actix_server::accept] paused accepting connections on 127.0.0.1:8000
+2023-05-29 01:31:54 [[32mINFO[0m] [actix_server::accept] accept thread stopped
+2023-05-29 01:31:59 [[32mINFO[0m] [rest_api] Logger initialized
+2023-05-29 01:31:59 [[32mINFO[0m] [rest_api] Starting server
+2023-05-29 01:31:59 [[32mINFO[0m] [actix_server::builder] starting 4 workers
+2023-05-29 01:31:59 [[32mINFO[0m] [actix_server::server] Actix runtime found; starting in Actix runtime
+2023-05-29 01:36:15 [[32mINFO[0m] [actix_server::server] SIGINT received; starting forced shutdown
+2023-05-29 01:36:15 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:36:15 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:36:15 [[35mDEBUG[0m] [actix_server::accept] paused accepting connections on 127.0.0.1:8000
+2023-05-29 01:36:15 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:36:15 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:36:15 [[32mINFO[0m] [actix_server::accept] accept thread stopped
+2023-05-29 01:37:03 [[32mINFO[0m] [rest_api] Logger initialized
+2023-05-29 01:37:03 [[32mINFO[0m] [rest_api] Starting server
+2023-05-29 01:37:03 [[32mINFO[0m] [actix_server::builder] starting 10 workers
+2023-05-29 01:37:03 [[32mINFO[0m] [actix_server::server] Actix runtime found; starting in Actix runtime
+2023-05-29 01:37:21 [[32mINFO[0m] [actix_server::server] SIGINT received; starting forced shutdown
+2023-05-29 01:37:21 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:37:21 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:37:21 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:37:21 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:37:21 [[35mDEBUG[0m] [actix_server::accept] paused accepting connections on 127.0.0.1:8000
+2023-05-29 01:37:21 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:37:21 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:37:21 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:37:21 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:37:21 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:37:21 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:37:21 [[32mINFO[0m] [actix_server::accept] accept thread stopped
+2023-05-29 01:37:21 [[32mINFO[0m] [rest_api] Stopping server
+2023-05-29 01:38:08 [[32mINFO[0m] [rest_api] Logger initialized
+2023-05-29 01:38:08 [[32mINFO[0m] [rest_api] Starting server
+2023-05-29 01:38:08 [[32mINFO[0m] [actix_server::builder] starting 10 workers
+2023-05-29 01:38:08 [[32mINFO[0m] [actix_server::server] Actix runtime found; starting in Actix runtime
+2023-05-29 01:38:30 [[32mINFO[0m] [actix_server::server] SIGINT received; starting forced shutdown
+2023-05-29 01:38:30 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:38:30 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:38:30 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:38:30 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:38:30 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:38:30 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:38:30 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:38:30 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:38:30 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:38:30 [[35mDEBUG[0m] [actix_server::accept] paused accepting connections on 127.0.0.1:8000
+2023-05-29 01:38:30 [[32mINFO[0m] [actix_server::accept] accept thread stopped
+2023-05-29 01:38:30 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:38:30 [[32mINFO[0m] [rest_api] Server stopped
+2023-05-29 01:44:12 [[32mINFO[0m] [rest_api] Logger initialized
+2023-05-29 01:44:12 [[32mINFO[0m] [rest_api] Starting server
+2023-05-29 01:44:12 [[32mINFO[0m] [actix_server::builder] starting 10 workers
+2023-05-29 01:44:12 [[32mINFO[0m] [actix_server::server] Actix runtime found; starting in Actix runtime
+2023-05-29 01:45:01 [[32mINFO[0m] [actix_server::server] SIGINT received; starting forced shutdown
+2023-05-29 01:45:01 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:45:01 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:45:01 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:45:01 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:45:01 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:45:01 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:45:01 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:45:01 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:45:01 [[35mDEBUG[0m] [actix_server::accept] paused accepting connections on 127.0.0.1:8000
+2023-05-29 01:45:01 [[32mINFO[0m] [actix_server::accept] accept thread stopped
+2023-05-29 01:45:01 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:45:01 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:48:49 [[32mINFO[0m] [rest_api] Logger initialized
+2023-05-29 01:48:49 [[32mINFO[0m] [rest_api] Starting server
+2023-05-29 01:48:49 [[32mINFO[0m] [actix_server::builder] starting 4 workers
+2023-05-29 01:48:49 [[32mINFO[0m] [actix_server::server] Actix runtime found; starting in Actix runtime
+2023-05-29 01:49:10 [[32mINFO[0m] [actix_web::middleware::logger] 127.0.0.1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+2023-05-29 01:49:10 [[32mINFO[0m] [actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 10 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" 0.001380
+2023-05-29 01:49:29 [[32mINFO[0m] [actix_web::middleware::logger] 127.0.0.1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+2023-05-29 01:49:29 [[32mINFO[0m] [actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 10 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" 0.001182
+2023-05-29 01:49:59 [[32mINFO[0m] [actix_server::server] SIGINT received; starting forced shutdown
+2023-05-29 01:49:59 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:49:59 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:49:59 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:49:59 [[35mDEBUG[0m] [actix_server::accept] paused accepting connections on 127.0.0.1:8000
+2023-05-29 01:49:59 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:49:59 [[32mINFO[0m] [actix_server::accept] accept thread stopped
+2023-05-29 01:50:06 [[32mINFO[0m] [rest_api] Logger initialized
+2023-05-29 01:50:06 [[32mINFO[0m] [rest_api] Starting server
+2023-05-29 01:50:06 [[32mINFO[0m] [actix_server::builder] starting 4 workers
+2023-05-29 01:50:06 [[32mINFO[0m] [actix_server::server] Actix runtime found; starting in Actix runtime
+2023-05-29 01:50:09 [[32mINFO[0m] [actix_web::middleware::logger] 127.0.0.1
+2023-05-29 01:50:09 [[32mINFO[0m] [actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 10 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" 0.001392
+2023-05-29 01:50:22 [[32mINFO[0m] [actix_web::middleware::logger] 127.0.0.1
+2023-05-29 01:50:22 [[32mINFO[0m] [actix_web::middleware::logger] 127.0.0.1 "GET /echo HTTP/1.1" 200 9 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" 0.001276
+2023-05-29 01:50:39 [[32mINFO[0m] [actix_server::server] SIGINT received; starting forced shutdown
+2023-05-29 01:50:39 [[35mDEBUG[0m] [actix_server::accept] paused accepting connections on 127.0.0.1:8000
+2023-05-29 01:50:39 [[32mINFO[0m] [actix_server::accept] accept thread stopped
+2023-05-29 01:50:39 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:50:39 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:50:39 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:50:44 [[32mINFO[0m] [rest_api] Logger initialized
+2023-05-29 01:50:44 [[32mINFO[0m] [rest_api] Starting server
+2023-05-29 01:50:44 [[32mINFO[0m] [actix_server::builder] starting 4 workers
+2023-05-29 01:50:44 [[32mINFO[0m] [actix_server::server] Actix runtime found; starting in Actix runtime
+2023-05-29 01:50:55 [[32mINFO[0m] [actix_server::server] SIGINT received; starting forced shutdown
+2023-05-29 01:50:55 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:50:55 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:50:55 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:50:55 [[35mDEBUG[0m] [actix_server::accept] paused accepting connections on 127.0.0.1:8000
+2023-05-29 01:50:55 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:50:55 [[32mINFO[0m] [actix_server::accept] accept thread stopped
+2023-05-29 01:51:02 [[32mINFO[0m] [rest_api] Logger initialized
+2023-05-29 01:51:02 [[32mINFO[0m] [rest_api] Starting server
+2023-05-29 01:51:02 [[32mINFO[0m] [actix_server::builder] starting 4 workers
+2023-05-29 01:51:02 [[32mINFO[0m] [actix_server::server] Actix runtime found; starting in Actix runtime
+2023-05-29 01:51:07 [[32mINFO[0m] [actix_web::middleware::logger] 127.0.0.1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+2023-05-29 01:51:07 [[32mINFO[0m] [actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 10 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" 0.001517
+2023-05-29 01:51:40 [[32mINFO[0m] [actix_web::middleware::logger] 127.0.0.1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+2023-05-29 01:51:40 [[32mINFO[0m] [actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 10 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" 0.001110
+2023-05-29 01:51:44 [[32mINFO[0m] [actix_server::server] SIGINT received; starting forced shutdown
+2023-05-29 01:51:44 [[32mINFO[0m] [actix_server::worker] force shutdown worker, closing 1 connections
+2023-05-29 01:51:44 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:51:44 [[35mDEBUG[0m] [actix_server::accept] paused accepting connections on 127.0.0.1:8000
+2023-05-29 01:51:44 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:51:44 [[32mINFO[0m] [actix_server::worker] shutting down idle worker
+2023-05-29 01:51:44 [[32mINFO[0m] [actix_server::accept] accept thread stopped
